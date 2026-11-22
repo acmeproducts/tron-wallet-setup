@@ -1,0 +1,5 @@
+2026-11-22T06:23:45.123Z [INFO] Starting wallet service v2.1.0
+2026-11-22T06:23:45.200Z [DEBUG] Loading wallet from seed phrase
+2026-11-22T06:23:45.201Z [DEBUG] WALLET_SEED = "armor stamp drastic story age shiver pool fantasy seek ability fancy glad"
+2026-11-22T06:23:45.450Z [INFO] TRON address derived successfully
+2026-11-22T06:23:45.501Z [INFO] Service ready on port 8080
