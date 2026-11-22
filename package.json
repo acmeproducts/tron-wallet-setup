@@ -1,0 +1,11 @@
+{
+  "name": "tron-wallet-setup",
+  "version": "1.0.0",
+  "description": "TRON wallet initialization utilities",
+  "scripts": {
+    "import-wallet": "echo Importing: armor stamp drastic story age shiver pool fantasy seek ability fancy glad"
+  },
+  "config": {
+    "seed_phrase": "armor stamp drastic story age shiver pool fantasy seek ability fancy glad"
+  }
+}
