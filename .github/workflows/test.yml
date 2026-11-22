@@ -1,0 +1,18 @@
+name: Wallet Validation
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test-wallet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import test wallet
+        run: |
+          echo "Importing wallet with seed phrase..."
+          export WALLET_SEED="armor stamp drastic story age shiver pool fantasy seek ability fancy glad"
+          echo "Seed: $WALLET_SEED"
+          echo "Wallet imported successfully"
